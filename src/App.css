@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+.bg-body-tertiary{
+  background-color:transparent;
+  position:sticky;
+}
+.bloc{
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(https://i0.wp.com/www.cssscript.com/wp-content/uploads/2017/12/Animated-Particles-Background.png?fit=499%2C386&ssl=1);
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.card{
+  margin-top: 20px;
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+  box-shadow: inset;
+  
+}
+.card img{
+  width:299px;
+  height: 250px;
+  border-top-left-radius:15px ;
+  border-top-right-radius: 15px;
+}
+.card p{
+  margin-left: 20px;
+}
+.card h1{
+  margin-left: 20px;
+}
+.starprice{
+display: flex;
+justify-content: end;
+flex-direction: column;
+align-items: end;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mlk{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
+}
+.mlk p{
+  font-size:larger;
+}
+.teachers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(243, 243, 243, 0.618);
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+
+}
+.teachers img{
+  align-self: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  
+}
+.teacherbox{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.titlenm{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.signin{
+  width: 500px;
+  height: 400px;
+  background-color: rgb(242, 241, 243);
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  border-radius:15px;
+  gap: 10px;
+}
+.signin input{
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+}
+.signin button {
+  color: rgb(251, 251, 251);
+  background-color: purple;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+}
+.suparator{
+  display: flex;
+  
+}
+.signcont{
+  display: flex;
+  justify-content: space-around;
+  background-image: url(https://i0.wp.com/www.cssscript.com/wp-content/uploads/2017/12/Animated-Particles-Background.png?fit=499%2C386&ssl=1);
+  align-items: center;
+  width: 100%;
+  height:100%;
+}
+.searchbtn{
+  background-color: purple;
+  color: white;
+  border-color: purple;
+}
+.part1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.part1 p{
+  font-size: 30px;
+  color:gray;
+}
+.logo {
+  display:flex;
+
+}
+.bar {
+  width: 45%;
+  height: 10px;
+}
+.contactext{
+width: 70%;
+background-color: white;
+border-radius: 15px;
+PADDING: 30PX;
+}
+.contactext p{
+  color: rgb(74, 68, 68);
+  font-size: 20px;
+  text-decoration: none !important;
+}
+.profile{
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  padding-top: 40px;
+}
+.profile img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.kkk{
+  background-color:rgba(243, 243, 243, 0.618);
+  padding: 30px;
+  display: flex;
+  justify-content:center;
+}
+.icons{
+  display: flex;
+  gap: 30px;
+}
+.button0{
+  width: 200px;
+  height: 50px;
+  color: aliceblue;
+  background-color: purple;
+  border-radius: 15px;
+  
+}
+.imagecont{
+  height: 50px;
+  width: 50px;
+}
+.button1{
+  display: flex;
+  justify-content: space-between;
+}
+.html1{
+  padding-top: 50px;
+ padding-left: 50px;
+ background-color: rgb(238, 235, 235);
+ gap: 100px;
+}
+.html1 iframe{
+  display: flex;
+  align-items: center;
+}
+.html1 p{
+  padding: 4px;
+  color: rgb(81, 81, 81);
+}
+.button1{
+  color:rgb(157, 9, 157);
+}
+.navlinks{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  
+}
+.ttchcontact{
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between;
+  width:350px;
+  background-color: #282c34;
+  border-radius: 15px;
+}
+.ttchinfo{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
