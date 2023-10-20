@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import coursesSlice, { addCourse } from './Redux/Slice/coursesSlice';
 import StarRatingComponent from 'react-star-rating-component';
-import { NavLink } from 'react-bootstrap';
+import { BrowserRouter as Router,Routes, Route, NavLink} from 'react-router-dom';
+
 
 function Courses() {
   const [newCourse,setCourse]=useState()
@@ -12,7 +13,6 @@ function Courses() {
   const add=()=>{dispatch(addCourse(newCourse))         
   }
   return (
-    <NavLink>
     <div className='bloc'>
       {courses.map((courses,index)=>(
         <div key={index} className='card'>
@@ -28,12 +28,14 @@ function Courses() {
           value={courses.star}
         />
         <p style={{color:"purple"}}>{courses.coast}</p>
-
+        <NavLink to={"html2"}>
+            <button className="button free-courses">Start Learning</button>
+        </NavLink>
         </div>
+
         </div>
       ))}
     </div>
-    </NavLink>
   )
 }
 

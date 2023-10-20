@@ -16,7 +16,6 @@ import Html6 from './Html6';
 import Contact from './Contact';
 import { useEffect } from 'react';
 import axios from 'axios';
-import Teachercontact from './Teachercontact';
 
 
 function App() {
@@ -27,21 +26,7 @@ function App() {
   })
   return (
     <div style={{height:'100vh'}}>
-      <Routes>
-          <Route path='signin' element={<Signin></Signin>}></Route>
-          <Route path='/' element={<div><Navbarr></Navbarr> <Home></Home><Courses></Courses><Teachers></Teachers><Contact></Contact></div>}></Route>
-            <Route path='courses' element={<Courses></Courses>}></Route>
-            <Route path='signup' element={<div><Signup></Signup><Html1></Html1></div>}></Route>
-            <Route path='html1' element={<Html1></Html1>}></Route>
-            <Route path='html2' element={<Html2></Html2>}></Route>
-            <Route path='html3' element={<Html3></Html3>}></Route>
-            <Route path='html4' element={<Html4></Html4>}></Route>
-            <Route path='html5' element={<Html5></Html5>}></Route>
-            <Route path='html6' element={<Html6></Html6>}></Route>
-            <Route path='contact' element={<Contact></Contact>}></Route>
-          </Routes>
-          <Teachercontact></Teachercontact>
-          
+     <Html1></Html1>
     </div>
   );
 }

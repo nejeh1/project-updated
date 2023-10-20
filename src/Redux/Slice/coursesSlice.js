@@ -5,7 +5,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const coursesSlice=createSlice({
     name:"courses",
     initialState:{
-        courses:[{name:'HTML',star:4,description:' It is a standard markup language for web page creation',image:'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/8/1/881415294f_50170557_code-html-sashkin-adobe-stock.jpg',duration:"30 days",coast:"150$"},
+        courses:[{name:'HTML',star:4,nav:'html1',description:' It is a standard markup language for web page creation',image:'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/8/1/881415294f_50170557_code-html-sashkin-adobe-stock.jpg',duration:"30 days",coast:"150$"},
         {name:'CSS',star:5,description:' is a stylesheet language used to describe the presentation of a document written in HTML',image:'https://www.skyminds.net/wp-content/uploads/2009/07/css.jpg',duration:"60 days",coast:"200$"},
         {name:'JavaScript',star:5,description:' is a scripting language that enables you to create dynamically updating content',image:'https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png',duration:"60 days",coast:"350$"},
         {name:'Figma',star:5,description:'Figma is the leading collaborative design tool for building meaningful products',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs50YocUbWVenSNWuV28TLuhyF5-24rs2hTQWrSAH2WdhAgHvjBPIEj8QD-5fDYUivXfM&usqp=CAU',coast:"100$"},
@@ -16,7 +16,7 @@ export const coursesSlice=createSlice({
         {name:'PHP',star:5,description:'PHP is a widely-used open source general-purpose scripting language that is especially suited for web',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSChGLTmw14-QnCYMDruDDTeXOZuufAl9uCZA&usqp=CAU',coast:"300$"},
         {name:'C#',star:5,description:'C# is used to develop web apps, desktop apps, mobile apps, games and much more',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShVR7wx2oq8ITpsZjDx94Hc9XGPF4GVS1loA&usqp=CAU',coast:"200$"}
     ]
-          ,  filtredCourses:[{name:'HTML',star:4,description:' It is a standard markup language for web page creation',image:'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/8/1/881415294f_50170557_code-html-sashkin-adobe-stock.jpg',duration:"30 days",coast:"150$"},
+          ,  filtredCourses:[{name:'HTML',star:4,nav:'html1',description:' It is a standard markup language for web page creation',image:'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/8/1/881415294f_50170557_code-html-sashkin-adobe-stock.jpg',duration:"30 days",coast:"150$"},
             {name:'CSS',star:5,description:' is a stylesheet language used to describe the presentation of a document written in HTML',image:'https://www.skyminds.net/wp-content/uploads/2009/07/css.jpg',duration:"60 days",coast:"200$"},
             {name:'JavaScript',star:5,description:' is a scripting language that enables you to create dynamically updating content',image:'https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png',duration:"60 days",coast:"350$"},
             {name:'figma',star:5,description:'Figma is the leading collaborative design tool for building meaningful products',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs50YocUbWVenSNWuV28TLuhyF5-24rs2hTQWrSAH2WdhAgHvjBPIEj8QD-5fDYUivXfM&usqp=CAU',coast:"100$"},
