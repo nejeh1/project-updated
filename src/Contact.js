@@ -60,6 +60,10 @@ function Contact() {
       </a>
       </div>
       </div>
+      <div className='map'>
+        <h1>Or Visit Us On The Spot</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12935.973083105288!2d10.58587925!3d35.84916855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stn!4v1697908184338!5m2!1sfr!2stn" className='maps'></iframe>
+    </div>
     </div>
   )
 }

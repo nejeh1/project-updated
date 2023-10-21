@@ -220,7 +220,8 @@ PADDING: 30PX;
   background-color:rgba(243, 243, 243, 0.618);
   padding: 30px;
   display: flex;
-  justify-content:center;
+  justify-content:space-evenly;
+  gap: 20px;
 }
 .icons{
   display: flex;
@@ -279,5 +280,18 @@ PADDING: 30PX;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+.map{
+  background-color:white;
+  border-radius: 15px;
+}
+.map h1{
+  padding:30px;
+  color:rgb(49, 49, 84);
+}
+.maps{
+  width:700px;
+  height: 900px;
+  padding: 20px;
+  
+}
 
