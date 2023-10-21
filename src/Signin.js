@@ -2,6 +2,7 @@
 import Signup from './Signup';
 import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import Html1 from './Html1';
 function Signin() {
     const [formData, setFormData]=useState({
         username:'',
@@ -39,11 +40,8 @@ const handleSubmit = (e) => {
         onChange={handleChange}
         required></input>
       <button onClick={handleSubmit}>Sign In</button>
-      <div className='separator'>
-        <span>______________________</span>
-        <div className='or'>OR</div>
-        <span>______________________</span>
-      </div>
+      <a>forget your password?</a>
+        <div>________________________________________</div>
       <NavLink to={"/Signup"}>
         <button>Sign Up</button>
       </NavLink>

@@ -9,12 +9,17 @@ function Courses() {
   const [newCourse,setCourse]=useState()
     const {courses}=useSelector(state=>state.coursesReducer)
   
+  const [coursesToShow, setCoursesToShow] = useState(4);
+  const showMoreText = coursesToShow === courses.length ? 'Show Less' : 'Show More';
+
   const dispatch=useDispatch()
   const add=()=>{dispatch(addCourse(newCourse))         
   }
   return (
+    <div >
     <div className='bloc'>
-      {courses.map((courses,index)=>(
+       {courses.slice(0, coursesToShow).map((courses, index) => (
+        <NavLink to={courses.sss} style={{textDecoration:'none'}}>
         <div key={index} className='card'>
         <img src={courses.image} alt={courses.name}></img>
         <h1>{courses.name}</h1>
@@ -28,13 +33,16 @@ function Courses() {
           value={courses.star}
         />
         <p style={{color:"purple"}}>{courses.coast}</p>
-        <NavLink to={"html2"}>
-            <button className="button free-courses">Start Learning</button>
+        </div>
+        </div>
         </NavLink>
-        </div>
-
-        </div>
       ))}
+    </div>
+    {courses.length > 4 && (
+        <button onClick={() => setCoursesToShow(coursesToShow === 4 ? courses.length : 4)} className='buttonshow'>
+          {showMoreText}
+        </button>
+      )}
     </div>
   )
 }

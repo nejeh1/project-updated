@@ -5,8 +5,8 @@ import { createSlice } from "@reduxjs/toolkit";
 export const coursesSlice=createSlice({
     name:"courses",
     initialState:{
-        courses:[{name:'HTML',star:4,nav:'html1',description:' It is a standard markup language for web page creation',image:'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/8/1/881415294f_50170557_code-html-sashkin-adobe-stock.jpg',duration:"30 days",coast:"150$"},
-        {name:'CSS',star:5,description:' is a stylesheet language used to describe the presentation of a document written in HTML',image:'https://www.skyminds.net/wp-content/uploads/2009/07/css.jpg',duration:"60 days",coast:"200$"},
+        courses:[{name:'HTML',star:4,sss:'html1',description:' It is a standard markup language for web page creation',image:'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/8/1/881415294f_50170557_code-html-sashkin-adobe-stock.jpg',duration:"30 days",coast:"150$"},
+        {name:'CSS',star:5,sss:'css1',description:' is a stylesheet language used to describe the presentation of a document written in HTML',image:'https://www.skyminds.net/wp-content/uploads/2009/07/css.jpg',duration:"60 days",coast:"200$"},
         {name:'JavaScript',star:5,description:' is a scripting language that enables you to create dynamically updating content',image:'https://miro.medium.com/v2/resize:fit:800/1*bthRXJ_FBspSEijOWIRM2A.png',duration:"60 days",coast:"350$"},
         {name:'Figma',star:5,description:'Figma is the leading collaborative design tool for building meaningful products',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs50YocUbWVenSNWuV28TLuhyF5-24rs2hTQWrSAH2WdhAgHvjBPIEj8QD-5fDYUivXfM&usqp=CAU',coast:"100$"},
         {name:'Python',star:5,description:'Python is an interpreted, object-oriented, high-level programming language with dynamic semantics',image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmYkBRSs213HVUF86CZhWv1UfUzSuXbTaDOeR4pXuvXx9qzoOc-dJ9YloV17cKfJuGozY&usqp=CAU',coast:"200$"},

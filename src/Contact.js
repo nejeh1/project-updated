@@ -24,14 +24,14 @@ function Contact() {
       </div>
       <div className='profiles'>
       <a href='https://www.facebook.com/mark.fotohabadi/'  className='profile'>
-      <img src='https://scontent.fnbe1-2.fna.fbcdn.net/v/t1.6435-1/67556924_10219964289967818_8833386931908771840_n.jpg?stp=cp0_dst-jpg_p74x74&_nc_cat=109&ccb=1-7&_nc_sid=db1b99&_nc_ohc=plqm-dXt4j0AX_Am9ye&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfCPU9ry_2tjVrHxuZt9a1Ksz-5GiT2Awe6BtbywXPr-Iw&oe=65520878' className='imagecont'></img>
+      <img src='https://scontent.ftun8-1.fna.fbcdn.net/v/t1.6435-9/67556924_10219964289967818_8833386931908771840_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=be3454&_nc_ohc=1PpdAuFWrTAAX_sqDoi&_nc_ht=scontent.ftun8-1.fna&oh=00_AfAXV30OJqICseKqesbctpKaPDk9iS7aNmKlEEoT1gJ59w&oe=655B2508' className='imagecont'></img>
         <div>
         <h2 style={{color:"black"}}>Mark Fotohabadi</h2>
         <p>thanks CodeProsper for this opportunity</p>
         </div>
       </a>
       <a href='https://es-la.facebook.com/people/Hanna-Yazzie/pfbid057kc5z5vvskLAcjU4JjfPaUM6kgCY5WEQbjrFpTi97UXgoofDtXXdNF6dWkGCi91l/'  className='profile'>
-      <img src='https://scontent.fnbe1-2.fna.fbcdn.net/v/t39.30808-1/381412239_122140402874002094_1583567195525944196_n.jpg?stp=cp0_dst-jpg_p74x74&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uPm18MP3nwYAX-Z4v9J&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfBAn3TvVAq-QsVRdLAOEn5tTvlTpxVukoTLxKoocRudfA&oe=65309463'></img>
+      <img src='https://scontent.ftun8-1.fna.fbcdn.net/v/t39.30808-6/381412239_122140402874002094_1583567195525944196_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=sN5JqBd4UAUAX_Eukam&_nc_ht=scontent.ftun8-1.fna&oh=00_AfBkVMHm0soZpo2vZsDnAEJ1cV8vwfQkekuN9lHJdZmI5g&oe=65399E48'></img>
         <div >
         <h2 style={{color:"black"}}>Hanna Yazzie</h2>
         <p> i learned w1 and im gonna learn more</p>
@@ -45,14 +45,14 @@ function Contact() {
         </div>
       </a>
       <a href='https://www.facebook.com/drofn.erlingsdottir.1/'  className='profile'>
-      <img src='https://scontent.fnbe1-2.fna.fbcdn.net/v/t39.30808-1/380652340_724381676373553_5405387655440449937_n.jpg?stp=cp0_dst-jpg_s74x74&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=sIZ-LfBuE4cAX9srNrB&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfARez_PIkWt0eVTWvRRvap6CThLeJjymEQXUygb2CBZZw&oe=653013B8'></img>
+      <img src='https://www.facebook.com/photo/?fbid=724381679706886&set=a.110973271047733'></img>
         <div>
         <h2 style={{color:"black"}}>Drofn Erlings</h2>
         <p> What a great job</p>
         </div>
       </a>
       <a href='https://www.facebook.com/people/Mohamed-Salah-Khaled/pfbid02vhh1PpNoBZoX2zRU1kKQqjTEqb7LnieZcyUarNpDEZmfW3WSkaQXfj7yUAszgbTXl/'  className='profile'>
-      <img src='https://scontent.fnbe1-2.fna.fbcdn.net/v/t39.30808-1/387861854_3636061276623338_8821113501994253829_n.jpg?stp=cp0_dst-jpg_s74x74&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bPEN7-BF9ekAX8dcU59&_nc_ht=scontent.fnbe1-2.fna&oh=00_AfCnk5eAZhponqzXpk-V_03dq_kwTBXqeIaR45mkrtvO3w&oe=652EA3B7'></img>
+      <img src='https://www.facebook.com/photo/?fbid=3636061279956671&set=a.1550459315183555'></img>
         <div>
         <h2 style={{color:"black"}}>Mohammed Salah Khaled</h2>
         <p>thanks guys for the opportunity</p>

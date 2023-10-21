@@ -35,6 +35,25 @@ const handleChange = (e) => {
        value={formData.password}
         onChange={handleChange}
         required></input>
+        <input type='text' 
+      name='Password'
+       placeholder='Password'
+       value={formData.password}
+        onChange={handleChange}
+        required></input>
+        <label for="gender">Chouse your gender:</label>
+<select name="gender" id="gender">
+    <option value="volvo">male</option>
+    <option value="saab">female</option>
+    </select>
+    <label for="country">Choose your country:</label>
+<select name="country" id="country">
+<option value="Tunisia">Tunisia</option>
+  <option value="Algeria">Algeria</option>
+  <option value="Egypte">Egypte</option>
+  <option value="Moroco">Moroco</option>
+  <option value="Palestine">Palestine</option>
+</select>
       <button onClick="submit">Sign UP</button>
     </div>
     </div>

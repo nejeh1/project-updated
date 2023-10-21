@@ -6,6 +6,16 @@
   background-color:transparent;
   position:sticky;
 }
+.buttonshow{
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: purple;
+  color: aliceblue;
+  display: inline;
+  margin-left: 600px;
+  padding-top: -100px;
+}
 .bloc{
   display: flex;
   justify-content: space-evenly;
@@ -88,9 +98,11 @@ align-items: end;
   background-color:rgba(243, 243, 243, 0.618);
   border-radius: 15px;
   width: 300px;
-  height: 350px;
+  height: 500px;
 
 }
+
+
 .teachers img{
   align-self: center;
   height: 200px;
@@ -102,6 +114,7 @@ align-items: end;
   display: flex;
   justify-content: center;
   gap: 20px;
+  height: 500px;
 }
 .titlenm{
   display:flex;
@@ -134,8 +147,23 @@ align-items: end;
 }
 .suparator{
   display: flex;
+  flex-direction: column;
+
   
 }
+.buttonshow{
+  display: inline;
+  justify-content: center;
+}
+#gender{width: 200px;
+height: 25px;
+border: none;}
+#country{
+  width:200px;
+  height: 25px;
+  border: none;
+}
+
 .signcont{
   display: flex;
   justify-content: space-around;
